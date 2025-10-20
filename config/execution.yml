@@ -1,0 +1,11 @@
+broker: ibkr
+paper: true
+order_route: SMART
+trade_window:
+  start: "09:45"
+  end: "15:45"
+retry:
+  max_attempts: 3
+  backoff_seconds: 30
+  timeout_seconds: 10
+position_buffer_pct: 0.05

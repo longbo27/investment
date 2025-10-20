@@ -1,0 +1,9 @@
+start: 2016-01-01
+end: 2025-09-30
+cash: 1000
+include_costs: true
+apply_t_plus_one: true
+walk_forward:
+  window_train_days: 730
+  window_test_days: 90
+  step_days: 30

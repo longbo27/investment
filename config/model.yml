@@ -1,0 +1,18 @@
+model: xgboost_classifier
+features:
+  - returns_5d
+  - returns_20d
+  - rsi_14
+  - macd
+  - vol_20d
+  - atr_14
+  - trend_100_over_200
+label: next_5d_excess_up
+threshold: 0.60
+train:
+  test_size: 0.2
+  cv: time_series_split
+  class_weight: balanced
+  max_depth: 4
+  n_estimators: 200
+  learning_rate: 0.05
