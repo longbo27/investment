@@ -1,0 +1,13 @@
+etfs:
+  - symbol: SPY     # S&P 500
+  - symbol: QQQ     # Nasdaq-100
+  - symbol: IWM     # Russell 2000
+  - symbol: XLK     # Technology
+  - symbol: XLE     # Energy
+  - symbol: XLV     # Healthcare
+  - symbol: TLT     # 20+Y Treasury (defensive)
+  - symbol: SHY     # 1-3Y Treasury (cash proxy)
+cash_proxy: BIL
+blacklist: []
+rebalance_freq: weekly
+base_weights: equal

@@ -1,0 +1,18 @@
+providers:
+  - name: polygon
+    frequency: daily
+    universe: etfs
+    cache: true
+  - name: stooq
+    frequency: daily
+    universe: etfs
+    cache: true
+storage:
+  format: parquet
+  partitioning: by_symbol
+  base_path: data
+fetch:
+  start: 2010-01-01
+  end: null
+  adjust_dividends: true
+  timezone: America/New_York

@@ -1,0 +1,13 @@
+account_ccy: USD
+max_drawdown_hard: -0.50
+max_drawdown_soft: -0.25
+position_max_gross: 1.00
+position_max_per_asset: 0.20
+risk_per_trade: 0.03
+daily_loss_limit: -0.05
+cooldown_days_after_hit: 3
+slippage_bps: 10
+commission_per_share: 0.01
+stop_mode: atr
+stop_atr_mult: 2.0
+takeprofit_rr: 1.2

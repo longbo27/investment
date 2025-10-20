@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quant-ai-1k"
+version = "0.1.0"
+description = "Template for a CAD 1k quant + AI trading pipeline"
+authors = [
+  {name = "Quant AI"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "pandas>=2.1",
+  "polars>=0.20",
+  "numpy>=1.26",
+  "scikit-learn>=1.3",
+  "xgboost>=2.0",
+  "joblib>=1.3",
+  "pyyaml>=6.0",
+  "loguru>=0.7",
+  "ta>=0.11",
+  "vectorbt>=0.26",
+  "ib-insync>=0.9",
+  "optuna>=3.4",
+  "torch>=2.1",
+  "pytorch-lightning>=2.1"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=7.4",
+  "pre-commit>=3.5"
+]
+
+[project.urls]
+Homepage = "https://example.com/quant-ai-1k"
+Documentation = "https://example.com/quant-ai-1k/docs"
+Source = "https://example.com/quant-ai-1k/src"
